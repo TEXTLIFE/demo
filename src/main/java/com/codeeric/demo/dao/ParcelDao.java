@@ -12,8 +12,9 @@ import java.util.UUID;
 @author : Enrique Enolva Tan
 @since: May 16, 2021
  @version: 1.0
-
  */
+
+//Factory Design Pattern implements ParcelDao
 public interface ParcelDao {
     //importing Person class from model package as well as creating an interface class
     int insertParcel(UUID id, Parcel parcel);
