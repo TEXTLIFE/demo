@@ -10,6 +10,8 @@ import java.util.UUID;
  @author : Enrique Enolva Tan
  @since: May 16, 2021
  @version: 1.0
+ @remarks: this is use to get the value from voucher api service from https://mynt-exam.mocklab.io/voucher/MYNT?key=apikey
+ particular the code field for voucherCode and discount field as discount.
  */
 
 public class Voucher {
