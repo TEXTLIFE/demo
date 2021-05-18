@@ -15,7 +15,7 @@ import java.util.UUID;
  @version: 1.0
  */
 
-@RequestMapping("api/v1/parcel")
+@RequestMapping("api/v1/parcel")//this is the path to complete with localhost:8080/ so the complete path is localhost:8080/api/v1/parcel
 @RestController
 public class ParcelController {
 
