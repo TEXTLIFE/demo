@@ -17,7 +17,7 @@ import java.util.UUID;
 @since: May 16, 2021
  @version: 1.0
  */
-@Service //2nd annotaton from Spring framework
+@Service //annotation from Spring boot framework
 public class ParcelService {
 
     private final ParcelDao parcelDao;
