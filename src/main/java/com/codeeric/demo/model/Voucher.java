@@ -12,6 +12,8 @@ import java.util.UUID;
  @version: 1.0
  @remarks: this is use to get the value from voucher api service from https://mynt-exam.mocklab.io/voucher/MYNT?key=apikey
  particular the code field for voucherCode and discount field as discount.
+ I chose not to implement the MVC design pattern for brevity purposes, I digress to a short cut version via Spring RestTemplate 
+ located in Parcel class under getDiscount method/function.
  */
 
 public class Voucher {
