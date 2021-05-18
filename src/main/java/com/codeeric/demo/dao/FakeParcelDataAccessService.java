@@ -15,8 +15,7 @@ import java.util.UUID;
  @version: 1.0
  */
 
-@Repository("fakeDaoParcel") //1st annotation from Spring
-
+@Repository("fakeDaoParcel") //annotation from Spring Boot, Factory Design Pattern implements ParcelDao
 public class FakeParcelDataAccessService implements ParcelDao {
     private static List<Parcel> DBParcel = new ArrayList<>();
 
