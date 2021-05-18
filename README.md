@@ -16,13 +16,13 @@ This also includes the details of the mock server that they have provided for yo
 You can run the api app in your local machine via intelliJ IDE or via jar, the local URL is localhost:8080/api/v1/parcel/, 
 I didn't deploy it in the internet as running api service, but local only.
 It has the following json parameters for example if you wanna insert data using postman in json format (the api must be running on local):
-{
-"weight" : "11",
-"voucher" : "MYNT"
-}
+    {
+        "weight" : "11",
+        "voucher" : "MYNT"
+    }
 
 Then try to execute GET via postman localhost:8080/api/v1/parcel/ without a parameter of ID (query all data)
-[
+
     {
         "id": "8b0cc8da-3c4e-4839-9ebb-5f2f6158b292",
         "ruleName": "Heavy Parcel",
@@ -36,19 +36,17 @@ Then try to execute GET via postman localhost:8080/api/v1/parcel/ without a para
         "discount": 12.25,
         "cost": 207.75
     }
-]
 
 another example with different parameters, without the weight param:
-{
-"height" : "20",
-"width" : "20",
-"length" : "10",
-"voucher" : "GFI"
-}
+    {
+        "height" : "20",
+        "width" : "20",
+        "length" : "10",
+        "voucher" : "GFI"
+    }
 
 result will be:
 
-[
     {
         "id": "cf2e1db5-573e-479c-9eed-0cbbef0d019d",
         "ruleName": "Large Parcel",
@@ -62,15 +60,15 @@ result will be:
         "discount": 7.5,
         "cost": 192.5
     }
-]
+
 
 with complete parameters from weight, length, width, height but NO voucher(discount):
 
 {
-"weight" : "10",
-"height" : "20",
-"width" : "20",
-"length" : "10"
+    "weight" : "10",
+    "height" : "20",
+    "width" : "20",
+    "length" : "10"
 }
 
 Result is:
