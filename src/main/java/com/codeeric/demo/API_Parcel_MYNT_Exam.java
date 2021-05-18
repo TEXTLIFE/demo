@@ -26,6 +26,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  * I didn't use also any actual DB here but instead the ArrayList class, the reason is that I didn't see any good unless
  * we want to store the test data for good and just also to save time designing and creating actual db.
+ *
+ * Attention, attention: ErrorHandler or Exception Handling best practices are not considered in this api implementation.
  */
 
 @SpringBootApplication
