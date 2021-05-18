@@ -92,6 +92,7 @@ public class Parcel {
         RestTemplate restTemplate = new RestTemplate();
         float disc = 0.0f;
 
+        //injecting some errorhandling capability but not all the way or global in scope implementation
         try {
 
             Map<String, String> params = new HashMap<>();
