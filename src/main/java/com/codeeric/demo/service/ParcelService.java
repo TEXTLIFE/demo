@@ -22,7 +22,7 @@ public class ParcelService {
 
     private final ParcelDao parcelDao;
 
-    @Autowired //@Qualifer with connection from FakePersonData...not actual db is used in this exam
+    @Autowired //@Qualifer with connection from FakeParcelData...not actual db is used in this exam
     public ParcelService(@Qualifier("fakeDaoParcel") ParcelDao parcelDao) {
         this.parcelDao = parcelDao;
     }
