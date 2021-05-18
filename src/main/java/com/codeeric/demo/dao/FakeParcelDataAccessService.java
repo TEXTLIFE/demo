@@ -37,7 +37,6 @@ public class FakeParcelDataAccessService implements ParcelDao {
         return DBParcel.stream()
                 .filter(parcel -> parcel.getId().equals(id))
                 .findFirst();
-        //return Optional.empty();
     }
 
     // this is not implemented not required in the exam spec
